@@ -38,9 +38,9 @@ main {
 
 .player {
   flex: 50%;
-  /* padding: 9rem; */
+  padding: 9rem;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   transition: all 0.75s;
 }
@@ -86,9 +86,6 @@ main {
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
-    /* visibility: hidden; */
-    display: none;
-
 }
 
 .current-label {
@@ -170,6 +167,5 @@ main {
 }
 
 .hidden {
-  /* display: none; */
-  visibility: hidden;
+  display: none;
 }
